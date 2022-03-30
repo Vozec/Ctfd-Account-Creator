@@ -1,0 +1,9 @@
+{
+	"team":"ExampleTeam",
+	"teampwd":"123IamRo0t",
+	"users": [
+		["Player1","player1@protonmail.com","Player1Password"],
+		["Player2","player2@protonmail.com","Player2Password"],
+		["Player3","player3@protonmail.com","Player3Password"]
+	]
+}
