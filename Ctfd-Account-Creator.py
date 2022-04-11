@@ -167,7 +167,7 @@ def parse_args():
 	parser.add_argument("-u", "--url", dest="url", required=True, help="Url of the Ctfd.")
 	parser.add_argument("-c", "--config", dest="config_path", required=True, help="Path of the config (*.json).")
 	parser.add_argument("-v", "--verbose", dest="verbose", action="store_true", default=False, help="Use verbose mode.")
-	parser.add_argument("-q", "--quit", dest="quit", action="store_true", default=False, help="Use quit mode.")
+	parser.add_argument("-q", "--quit", dest="quiet", action="store_true", default=False, help="Use quiet mode.")
 	parser.add_argument("-d", "--discord", dest="discord", action="store_true", default=False, help="Displays the account created in a Discord Message template")
 	args = parser.parse_args()
 	return args
